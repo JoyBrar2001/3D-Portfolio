@@ -25,10 +25,17 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import photoshop from "./company/photoshop.png";
+import premiere from "./company/premiere.png";
+import aftereffects from "./company/aftereffects.png";
+import illustrator from "./company/illustrator.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import weatherapp from "./weatherapp.png";
+import loginform from "./loginandsigninform.png";
+import portfolio from "./portfolio.png";
 
 export {
   logo,
@@ -59,4 +66,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  photoshop,
+  premiere,
+  aftereffects,
+  illustrator,
+  weatherapp,
+  loginform,
+  portfolio
 };

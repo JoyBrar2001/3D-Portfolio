@@ -13,9 +13,13 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
     docker,
     meta,
+    photoshop,
+    premiere,
+    aftereffects,
+    illustrator,
+    figma,
     starbucks,
     tesla,
     shopify,
@@ -23,6 +27,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    weatherapp,
+    loginform,
+    portfolio
   } from "../assets";
   
   export const navLinks = [
@@ -42,15 +49,15 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Aspiring Web Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Graphic Designer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "UI/UX Designer",
       icon: backend,
     },
     {
@@ -73,16 +80,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -91,10 +90,6 @@ import {
     {
       name: "Node JS",
       icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
     },
     {
       name: "Three JS",
@@ -109,64 +104,72 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "photoshop",
+      icon: photoshop,
+    },
+    {
+      name: "illustrator",
+      icon: illustrator,
+    },
+    {
+      name: "premiere",
+      icon: premiere,
+    },
+    {
+      name: "aftereffects",
+      icon: aftereffects,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Graphic Designer",
+      company_name: "Adobe Photoshop, Illustrator",
+      icon: photoshop,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Since 2016",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Have been using Photoshop for the past 4-5 years, and have a good hold over Photo Manipulation",
+        "Made several projects, such as posters, flexes, ID cards for College fests, that too while being on a time crunch",
+        "Starting to learn Illustrator to develop my own Graphics"
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
+      title: "Video Editor",
       company_name: "Meta",
-      icon: meta,
+      icon: premiere,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Since 2018",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Well versed in softwares, such as Adobe Premiere Pro, After Effects, for the last 4 years",
+        "Made multiple video edits, that are on my YouTube channel, and trying to get into CGI as well",
+        "Dipped my feet in freelancing as well"
       ],
     },
+    {
+      title: "Aspiring Web Developer",
+      company_name: "",
+      icon: javascript,
+      iconBg: "#383E56",
+      date: "Since 2020",
+      points: [
+        "Familiar with HTML, CSS, and Javascript up to a intermediate level",
+        "Learning several frameworks and libraries, such as React, Tailwind, SCSS, Bootstrap, Three.js etc.",
+        "Made several projects, including a weather app, personal portfolios, UI Designs, etc"
+      ],
+    },
+    {
+      title: "UI/UX Designer",
+      company_name: "",
+      icon: figma,
+      iconBg: "#E6DEDD",
+      date: "As of recently",
+      points: [
+        "Starting to get into the field of UI/UX as well",
+        "Know how to operate Figma, and Photoshop, in order to make User Interfaces",
+        "Being a graphic designer, I have a very good sense of color schemes, and positioning, to make the UI more catchy and immersive for the user"
+      ],
+    }
   ];
   
   const testimonials = [
@@ -198,67 +201,67 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Weather App Using API",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to check the weather of their current location, or any location they enter.",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "javascript",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "weatherAPI",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: weatherapp,
+      source_code_link: "https://github.com/JoyBrar2001/Weather-App-with-API.git",
     },
     {
-      name: "Job IT",
+      name: "Animated Form",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A login as well as Sign in form, which allows the users to switch between login and sign up, on the click of a single button, with a cool animation",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
         },
         {
           name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: loginform,
+      source_code_link: "https://github.com/JoyBrar2001/Login-and-Sign-in-Animated-Form.git",
+    },
+    {
+      name: "First Portfolio",
+      description:
+        "My first portfolio made using only Vanilla HTML, CSS, and Javascript",
+      tags: [
+        {
+          name: "vanilla",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "intersection observer",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portfolio,
+      source_code_link: "https://github.com/JoyBrar2001/JoyBrar2001.github.io.git",
     },
   ];
   

@@ -40,7 +40,7 @@ const BallCanvas = ({icon}) => {
         <OrbitControls 
           enableZoom={false}
         />
-        <Ball imgUrl={icon} />
+        <Ball imgUrl={icon}/>
       </Suspense>
 
       <Preload all />
